@@ -1,0 +1,19 @@
+body {
+    font-family: Tahoma, serif;
+    font-size: 11pt;
+}
+
+header.main {
+    background: url('../images/logo.png') 30px center no-repeat;
+    margin-bottom: 50px;
+}
+
+header.main h1 {
+    font-family: Tahoma;
+    line-height: 100px;
+    padding-left: 150px;
+}
+
+section#content {
+    padding: 0px 30px;
+}
