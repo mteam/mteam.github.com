@@ -1,0 +1,8 @@
+{
+  "locals": {
+    "title": "Marshmallow Team"
+  },
+  "plugins": [
+  	"./node_modules/wintersmith-stylus"
+  ]
+}

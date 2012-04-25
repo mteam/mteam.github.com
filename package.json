@@ -1,0 +1,7 @@
+{
+	"name": "MarshmallowTeamWebsite",
+	"version": "0.1.0",
+	"dependencies": {
+		"wintersmith-stylus": "0.1.x"
+	}
+}

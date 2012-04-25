@@ -1,0 +1,15 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title
+        block title
+          = locals.name
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    header
+      h1 Haha
+    section#content
+      h1= page.title
+      != page.html
+      #tentacles
