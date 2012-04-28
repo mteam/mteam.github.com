@@ -1,15 +1,28 @@
 !!! 5
 html(lang='en')
   head
-    meta(charset='utf-8')
-    title
-        block title
-          = locals.name
-    link(rel='stylesheet', href='/css/main.css')
+    block header
+      meta(charset='utf-8')
+
+      title
+          block title
+            = locals.title
+
+      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Press+Start+2P')
+      link(rel='stylesheet', href='/css/main.css')
+
+      script(src='/js/jquery.js')
+      script(src='/js/jquery.lettering.js')
+      script(src='/js/main.js')
   body
-    header
-      h1 Haha
-    section#content
-      h1= page.title
-      != page.html
+    #container
+      #header
+        h1= locals.title
+      ul#nav
+        li: a(href='/') Home
+        li: a(href='/games.html') Games
+        li: a(href='/news.html') News
+      #content
+        block content
+          != page.html
       #tentacles

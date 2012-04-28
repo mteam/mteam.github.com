@@ -1,0 +1,10 @@
+extends layout
+
+block prepend title
+	if page.metadata.title
+		| #{page.title} - 
+
+block content
+	if page.metadata.title
+		h1= page.title
+	!= page.html
