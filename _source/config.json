@@ -4,5 +4,6 @@
   },
   "plugins": [
   	"./node_modules/wintersmith-stylus"
-  ]
+  ],
+  "output": "../"
 }

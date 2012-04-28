@@ -1,0 +1,118 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("/images/background.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font: 12px Helvetica, Arial, sans-serif;
+}
+#container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background: url("/images/body.gif") center top repeat-y;
+}
+#header {
+  width: 100%;
+  height: 222px;
+  margin: 0px;
+  padding: 10px 0px;
+  background: url("/images/header.gif") center top no-repeat;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 1.2em;
+}
+#header .char1 {
+  color: #ff7170;
+}
+#header .char2 {
+  color: #ffc675;
+}
+#header .char3 {
+  color: #fef775;
+}
+#header .char4 {
+  color: #c6ff74;
+}
+#header .char5 {
+  color: #76ff73;
+}
+#header .char6 {
+  color: #75ffb4;
+}
+#header .char7 {
+  color: #75ffef;
+}
+#header .char8,
+#header .char9 {
+  color: #74ddfd;
+}
+#header .char10 {
+  color: #7489ff;
+}
+#header .char11 {
+  color: #bb74ff;
+}
+#header .char13,
+#header .char14,
+#header .char15,
+#header .char16 {
+  color: #ff7ab1;
+}
+#nav {
+  display: block;
+  width: 828px;
+  margin: 0px auto 10px;
+  padding: 0px;
+  zoom: 1;
+  list-style: none;
+}
+#nav:before,
+#nav:after {
+  content: "";
+  display: table;
+}
+#nav:after {
+  clear: both;
+}
+#nav li {
+  float: left;
+  margin-left: 40px;
+}
+#nav li a {
+  border: 5px solid #fff;
+  padding: 5px 10px;
+  line-height: 47px;
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Press Start 2P', sans-serif;
+  text-decoration: none;
+}
+#content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 828px;
+  margin: 0px auto;
+  padding: 0px 40px 380px;
+}
+#tentacles {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 372px;
+  background: url("/images/tentacles.gif") center bottom no-repeat;
+}
