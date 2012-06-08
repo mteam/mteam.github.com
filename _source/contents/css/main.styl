@@ -1,7 +1,7 @@
 @import "nib"
 
 body, html
-	height: 100%
+	height 100%
 	margin 0px
 	padding 0px
 
@@ -21,7 +21,7 @@ body
 
 #header
 	width 100%
-	height 222px
+	height 230px
 	margin 0px
 	padding 10px 0px
 
@@ -52,6 +52,34 @@ body
 	width 700px
 	margin 0px auto
 	padding 0px 40px 380px
+
+#icons
+	width 700px
+	margin 0px auto
+	position relative
+
+	ul
+		list-style none
+		absolute right -130px top -70px
+		padding 0px
+	
+	li
+		margin-bottom 10px
+
+	li a
+		width 100%
+		height 100%
+		display block
+
+	li.twitter
+		width 80px
+		height 100px
+		background url('/images/twitter.gif')
+	
+	li.douban
+		width 74px
+		height 100px
+		background url('/images/douban.gif')
 
 #tentacles
 	box-sizing border-box

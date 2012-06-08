@@ -18,6 +18,10 @@ html(lang='en')
     #container
       #header
         h1= locals.title
+      #icons
+        ul
+          li.twitter: a(href='http://twitter.com/MarshmallowTeam')
+          li.douban: a(href='http://www.douban.com/group/407170/')
       #content
         block content
           != page.html

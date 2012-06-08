@@ -24,7 +24,7 @@ body {
 }
 #header {
   width: 100%;
-  height: 222px;
+  height: 230px;
   margin: 0px;
   padding: 10px 0px;
   background: url("/images/header.gif") center top no-repeat;
@@ -79,6 +79,36 @@ body {
   width: 700px;
   margin: 0px auto;
   padding: 0px 40px 380px;
+}
+#icons {
+  width: 700px;
+  margin: 0px auto;
+  position: relative;
+}
+#icons ul {
+  list-style: none;
+  position: absolute;
+  right: -130px;
+  top: -70px;
+  padding: 0px;
+}
+#icons li {
+  margin-bottom: 10px;
+}
+#icons li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#icons li.twitter {
+  width: 80px;
+  height: 100px;
+  background: url("/images/twitter.gif");
+}
+#icons li.douban {
+  width: 74px;
+  height: 100px;
+  background: url("/images/douban.gif");
 }
 #tentacles {
   -webkit-box-sizing: border-box;
