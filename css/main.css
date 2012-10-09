@@ -120,3 +120,18 @@ body {
   height: 310px;
   background: url("/images/tentacles.png") 120px bottom no-repeat;
 }
+#index-buttons {
+  padding-top: 100px;
+  text-align: center;
+}
+#index-buttons a.awesome {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: 100px;
+  background: url("/images/awesome.png") left top;
+}
+#index-buttons a.awesome:hover {
+  background-position: left bottom;
+}
