@@ -8,6 +8,7 @@ body {
   background-image: url("/images/background.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font: 12px Helvetica, Arial, sans-serif;
@@ -126,10 +127,10 @@ body {
 }
 #index-buttons a.awesome {
   display: inline-block;
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 60px;
   overflow: hidden;
-  text-indent: 100px;
+  text-indent: 150px;
   background: url("/images/awesome.png") left top;
 }
 #index-buttons a.awesome:hover {
