@@ -1,1 +1,1 @@
-RedirectMatch 301 /awesome(.*) http://marshmallowteam.github.com/awesome$1
+RedirectMatch 301 ^/awesome(.*) http://marshmallowteam.github.com/awesome$1
