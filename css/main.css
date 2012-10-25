@@ -8,7 +8,6 @@ body {
   background-image: url("/images/background.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font: 12px Helvetica, Arial, sans-serif;
@@ -140,4 +139,24 @@ body {
 }
 #index-buttons a.awesome:hover {
   background-position: left bottom;
+}
+.avatar {
+  display: block;
+  width: 80px;
+  height: 140px;
+  text-indent: 80px;
+  overflow: hidden;
+  background-position: left top;
+}
+.avatar:hover {
+  background-position: right top;
+}
+.avatar.anka {
+  background-image: url("/images/anka.gif");
+}
+.avatar.lucka {
+  background-image: url("/images/lucka.gif");
+}
+.avatar.mishko {
+  background-image: url("/images/mishko.gif");
 }
