@@ -1,3 +1,3 @@
 $(function () {
-	$('#header h1').lettering();
+	$('#header h1 a').lettering();
 });
