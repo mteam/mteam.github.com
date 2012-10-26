@@ -8,6 +8,7 @@ body {
   background-image: url("/images/background.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font: 12px Helvetica, Arial, sans-serif;
@@ -80,37 +81,68 @@ body {
   margin: 0px auto;
   padding: 0px 40px 380px;
 }
-#icons {
+#right,
+#left {
   width: 690px;
   margin: 0px auto;
   position: relative;
 }
-#icons ul {
+#right ul,
+#left ul {
   list-style: none;
-  position: absolute;
-  right: -130px;
-  top: -140px;
   padding: 0px;
 }
-#icons li {
+#right li,
+#left li {
   margin-bottom: 10px;
 }
-#icons li a {
+#right li a,
+#left li a {
   width: 100%;
   height: 100%;
   display: block;
 }
-#icons li.twitter {
+#left ul {
+  position: absolute;
+  left: -130px;
+  top: -140px;
+}
+#left li.anka,
+#left li.lucka,
+#left li.mishko {
+  width: 80px;
+  height: 140px;
+}
+#left li.anka:hover,
+#left li.lucka:hover,
+#left li.mishko:hover {
+  background-position: right top;
+}
+#left li.anka {
+  background: url("/images/anka.gif");
+}
+#left li.lucka {
+  background: url("/images/lucka.gif");
+}
+#left li.mishko {
+  background: url("/images/mishko.gif");
+}
+#right ul {
+  position: absolute;
+  right: -130px;
+  top: -140px;
+}
+#right li.twitter {
   width: 80px;
   height: 100px;
   background: url("/images/twitter.png");
 }
-#icons li.mail {
+#right li.mail {
   width: 80px;
   height: 100px;
   background: url("/images/mail.png");
 }
-#icons li.douban {
+#right li.douban {
   width: 74px;
   height: 100px;
   background: url("/images/douban.png");
