@@ -8,7 +8,6 @@ body {
   background-image: url("/images/background.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font: 12px Helvetica, Arial, sans-serif;
@@ -161,19 +160,25 @@ body {
   background: url("/images/tentacles.png") 120px bottom no-repeat;
 }
 #index-buttons {
-  padding-top: 100px;
   text-align: center;
 }
-#index-buttons a.awesome {
+#index-buttons a {
   display: inline-block;
   width: 150px;
   height: 60px;
+  margin-top: 50px;
   overflow: hidden;
   text-indent: 150px;
-  background: url("/images/awesome.png") left top;
+  background-position: left top;
 }
-#index-buttons a.awesome:hover {
+#index-buttons a:hover {
   background-position: left bottom;
+}
+#index-buttons a.awesome {
+  background-image: url("/images/awesome.png");
+}
+#index-buttons a.nepenthe {
+  background-image: url("/images/nepenthe.png");
 }
 .avatar {
   display: block;

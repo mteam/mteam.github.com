@@ -123,20 +123,26 @@ body
 	background url('/images/tentacles.png') 120px bottom no-repeat
 
 #index-buttons
-	padding-top 100px
 	text-align center
 
-	a.awesome
+	a
 		display inline-block
 		width 150px
 		height 60px
+		margin-top 50px
 		overflow hidden
 		text-indent 150px
-
-		background url('/images/awesome.png') left top
-
+		
+		background-position left top
+		
 		&:hover
 			background-position left bottom
+
+	a.awesome
+		background-image url('/images/awesome.png')
+
+	a.nepenthe
+		background-image url('/images/nepenthe.png')
 
 .avatar
 	display block
